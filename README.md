@@ -3,14 +3,14 @@
 LibWarDB2 is a cross-platform .NET Standard 2.1 library that allows you to read and write DB2 files created by Blizzard Activison.
 
 ## Currently supported
-[ ] WDB2
-[ ] WDB3
-[ ] WDB4
-[ ] WDB5
-[ ] WDB6
-[ ] WDC1
-[ ] WDC2
-[X] WDC3
+- [ ] WDB2
+- [ ] WDB3
+- [ ] WDB4
+- [ ] WDB5
+- [ ] WDB6
+- [ ] WDC1
+- [ ] WDC2
+- [X] WDC3
 
 ## How to use
 ### Loading a WDC3 DB2
