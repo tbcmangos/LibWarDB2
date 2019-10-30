@@ -12,7 +12,7 @@
         /// <summary>
         /// Absolute position to the beginning of the section
         /// </summary>
-        public uint FileOffset { get; set; }
+        public uint FileOffset { get; internal set; }
         /// <summary>
         /// 'record_count' for the section
         /// </summary>
@@ -24,7 +24,7 @@
         /// <summary>
         /// Offset to the spot where the records end in a file with an offset map structure;
         /// </summary>
-        public uint OffsetRecordsEnd { get; set; }
+        public uint OffsetRecordsEnd { get; internal set; }
         /// <summary>
         /// Size of the list of ids present in the section
         /// </summary>

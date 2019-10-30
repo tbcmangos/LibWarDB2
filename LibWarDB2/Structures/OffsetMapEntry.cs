@@ -2,7 +2,7 @@
 {
     public class OffsetMapEntry
     {
-        public uint Offset { get; set; }
+        public uint Offset { get; internal set; }
         public ushort Size { get; set; }
     }
 }

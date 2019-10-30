@@ -45,7 +45,7 @@
         /// <summary>
         /// Relative position in record where bitpacked data begins; not important for parsing the file
         /// </summary>
-        public uint BitpackedDataOffset { get; set; }
+        public uint BitpackedDataOffset { get; internal set; }
         public uint LookupColumnCount { get; set; }
         public uint FieldStorageInfoSize { get; set; }
         public uint CommonDataSize { get; set; }

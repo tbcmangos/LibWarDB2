@@ -6,6 +6,11 @@ namespace LibWarDB2
 {
     public class WDC3
     {
+        /// <summary>
+        /// WDC3
+        /// </summary>
+        public const uint Signature = 860046423;
+
         public WDC3Header Header { get; set; }
         public WDC3SectionHeader[] SectionHeaders { get; set; }
         public FieldStructure[] Fields { get; set; }

@@ -9,6 +9,6 @@
         /// <summary>
         /// Position of the field within the record, relative to the start of the record
         /// </summary>
-        public ushort Position { get; set; }
+        public ushort Position { get; internal set; }
     }
 }

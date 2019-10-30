@@ -10,6 +10,8 @@ namespace LibWarDB2.Extensions
         {
             var wdc = new WDC3();
             wdc.Header = reader.ReadWDC3Header();
+            if (wdc.Header.Magic != WDC3.Signature)
+                throw new InvalidDataException("The file magic is not WDC3");
             wdc.SectionHeaders = new WDC3SectionHeader[wdc.Header.SectionCount];
             for (int i = 0; i < wdc.Header.SectionCount; i++)
                 wdc.SectionHeaders[i] = reader.ReadWDC3SectionHeader();
