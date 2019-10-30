@@ -18,7 +18,14 @@ namespace LibWarDB2
         {
             using (var reader = new BinaryReader(File.Open(path, FileMode.Open, FileAccess.Read)))
             {
-                reader.ReadWDC3();
+                var wdc = reader.ReadWDC3();
+                Header = wdc.Header;
+                SectionHeaders = wdc.SectionHeaders;
+                Fields = wdc.Fields;
+                FieldInfo = wdc.FieldInfo;
+                PalletData = wdc.PalletData;
+                CommonData = wdc.CommonData;
+                DataSections = wdc.DataSections;
             }
         }
 
@@ -26,7 +33,7 @@ namespace LibWarDB2
         {
             using (var writer = new BinaryWriter(File.Open(path, FileMode.Create, FileAccess.Write)))
             {
-                //writer.WriteWDC3();
+                writer.Write(this);
             }
         }
     }

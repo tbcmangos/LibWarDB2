@@ -8,6 +8,7 @@ namespace LibWarDB2TestProject
         {
             var wdc = new WDC3();
             wdc.Load("C:/Users/Kevin Bernau/Downloads/item.db2");
+            wdc.Save("C:/Users/Kevin Bernau/Downloads/item_new.db2");
         }
     }
 }
