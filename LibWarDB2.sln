@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibWarDB2", "LibWarDB2\LibWarDB2.csproj", "{C6094C7B-8781-493F-8036-323E9BAB9E1E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibWarDB2TestProject", "LibWarDB2TestProject\LibWarDB2TestProject.csproj", "{7EC3EF6B-E759-462F-9E22-4F69910D3E14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C6094C7B-8781-493F-8036-323E9BAB9E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6094C7B-8781-493F-8036-323E9BAB9E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6094C7B-8781-493F-8036-323E9BAB9E1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EC3EF6B-E759-462F-9E22-4F69910D3E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC3EF6B-E759-462F-9E22-4F69910D3E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC3EF6B-E759-462F-9E22-4F69910D3E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC3EF6B-E759-462F-9E22-4F69910D3E14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

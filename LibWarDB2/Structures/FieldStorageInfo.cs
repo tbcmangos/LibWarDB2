@@ -1,5 +1,8 @@
-﻿namespace LibWarDB2.Structures
+﻿using System.Runtime.InteropServices;
+
+namespace LibWarDB2.Structures
 {
+    [StructLayout(LayoutKind.Sequential)]
     public class FieldStorageInfo
     {
         public ushort FieldOffsetBits { get; set; }
@@ -12,6 +15,7 @@
         /// </summary>
         public ushort FieldSizeBits { get; set; }
         public uint AdditionalDataSize { get; set; }
+        public FieldCompression StorageType { get; set; }
         /// <summary>
         /// Bitpacked || BitpackedSigned: uint32_t bitpacking_offset_bits; not useful for most purposes; formula they use to calculate is bitpacking_offset_bits = field_offset_bits - (header.bitpacked_data_offset * 8)
         /// CommonData: uint32_t default_value;

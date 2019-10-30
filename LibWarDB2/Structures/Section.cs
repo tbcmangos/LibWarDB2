@@ -27,6 +27,6 @@
         /// Only when <see cref="WDC3SectionHeader.RelationshipDataSize"/> > 0
         /// </summary>
         public RelationshipMapping RelationshipMap { get; set; }
-        public uint OffsetMapIdList { get; set; }
+        public uint[] OffsetMapIdList { get; set; }
     }
 }

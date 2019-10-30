@@ -26,19 +26,19 @@
         /// </summary>
         public uint OffsetRecordsEnd { get; set; }
         /// <summary>
-        /// // Size of the list of ids present in the section
+        /// Size of the list of ids present in the section
         /// </summary>
         public uint IdListSize { get; set; }
         /// <summary>
-        /// // Size of the relationship data in the section
+        /// Size of the relationship data in the section
         /// </summary>
         public uint RelationshipDataSize { get; set; }
         /// <summary>
-        /// // Count of ids present in the offset map in the section
+        /// Count of ids present in the offset map in the section
         /// </summary>
         public uint OffsetMapIdCount { get; set; }
         /// <summary>
-        /// // Count of the number of deduplication entries (you can multiply by 8 to mimic the old 'copy_table_size' field)
+        /// Count of the number of deduplication entries (you can multiply by 8 to mimic the old 'copy_table_size' field)
         /// </summary>
         public uint CopyTableCount { get; set; }
 }

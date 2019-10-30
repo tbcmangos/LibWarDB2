@@ -2,6 +2,6 @@
 {
     public class RecordData
     {
-        public byte[] data { get; set; } 
+        public byte[] Data { get; set; } 
     }
 }
