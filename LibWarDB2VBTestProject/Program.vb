@@ -8,7 +8,7 @@ Module Program
 
         Dim wdc = New WDC3()
 
-        wdc.Load("GarrPlotUICategory.db2")
+        wdc.Load("ChrClassTitle.db2")
         ''might have multiple sections?
         'Dim sec As Section() = wdc.DataSections
         'For Each id In sec(0).IdList
