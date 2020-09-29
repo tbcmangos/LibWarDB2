@@ -10,4 +10,10 @@
     <ProjectReference Include="..\LibWarDB2VB\LibWarDB2VB.vbproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="ChrClassTitle.db2">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
